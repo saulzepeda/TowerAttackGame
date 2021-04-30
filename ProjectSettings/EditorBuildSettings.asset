@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MenuScene.unity
+    guid: 9c84d2b15a7524448847848fde497fd4
+  - enabled: 1
+    path: Assets/Scenes/LevelEasy.unity
+    guid: cb87925980032854cb856c22d08065f8
+  - enabled: 1
+    path: Assets/Scenes/LevelMedium.unity
+    guid: aae859246bc5b504298f4d31d11ceb6b
+  - enabled: 1
+    path: Assets/Scenes/TutorialScene.unity
+    guid: 34fbbdce86384084b9b25d6bb94a9322
+  - enabled: 1
+    path: Assets/Scenes/TutorialTurret1.unity
+    guid: 7c0e7f685f3d3364b82ada42bb411128
+  - enabled: 1
+    path: Assets/Scenes/TutorialTurret2.unity
+    guid: 98da4559737f631458451135a14f5b2e
+  - enabled: 1
+    path: Assets/Scenes/TutorialTurret3.unity
+    guid: b142fda321c69dc49b985c9893890068
+  - enabled: 1
+    path: Assets/Scenes/TutorialPowers.unity
+    guid: 13109d8f96dbf6c4a914a532c89d9c0a
+  - enabled: 1
+    path: Assets/Scenes/LevelHard.unity
+    guid: 4ae57b9f2841abb4a9c46912bb6a40cb
+  - enabled: 0
+    path: Assets/Scenes/VideoScene.unity
+    guid: 917ff43d31db0f24dadfad181936d75b
+  - enabled: 0
+    path: Assets/Scenes/VideoScene2.unity
+    guid: a1c4b949b4fd26944a9c22b4d931adde
+  m_configObjects: {}

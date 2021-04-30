@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3078853348754740259
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3078853348754740445}
+  - component: {fileID: 3078853348754740258}
+  m_Layer: 0
+  m_Name: PlayerManager
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3078853348754740445
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3078853348754740259}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 438.10535, y: 646.45953, z: -108.870316}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3078853348754740258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3078853348754740259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51680dfb67cf77a45a0c6fff03c499f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabGiant: {fileID: 7852804278076094442, guid: dd7fd6b6fd71bf649aa576835e9fedba,
+    type: 3}
+  GiantPriceTxt: {fileID: 0}
+  prefabMidget: {fileID: 2709853947607038230, guid: 392e88ca6b81fd44c86e3d1b8f4fe4e1,
+    type: 3}
+  MidgetPriceTxt: {fileID: 0}
+  prefabSnake: {fileID: 5576154737346226892, guid: 8bf81ed74ce5a984cb8351e4489af37e,
+    type: 3}
+  SnakePriceTxt: {fileID: 0}
+  CoinText: {fileID: 0}
+  _Coins: 3000
+  startCoins: 3000
+  MinionText: {fileID: 0}
+  FreezeCost: 300
+  PriceFreezeTxt: {fileID: 0}
+  PTimeFreezed: 2
+  MinionsToWin: 6
